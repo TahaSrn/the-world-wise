@@ -1,16 +1,134 @@
-# React + Vite
+# 🌲 The Wild Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern hotel management dashboard built with React.  
+This application allows hotel staff to manage cabins, bookings, guests, and users through a clean and intuitive interface.
 
-Currently, two official plugins are available:
+![Dashboard Preview](./public/dashboard-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Dashboard with key hotel statistics
+- Booking management
+- Cabin management (Create, Update, Delete)
+- User authentication
+- Add new staff users
+- Update profile information
+- Dark mode support
+- Interactive charts and analytics
+- Protected routes
+- Form validation
+- Toast notifications
+- Error handling
+- Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 https://the-wild-oasis-one-nu.vercel.app/
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router
+- Styled Components
+- Supabase
+- TanStack React Query
+- React Hook Form
+- React Hot Toast
+- React Error Boundary
+- Recharts
+- Date-fns
+- React Icons
+
+
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── features
+├── pages
+├── services
+├── ui
+├── hooks
+├── context
+├── styles
+└── utils
+```
+
+---
+
+## ⚙️ Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/TahaSrn/the-wild-oasis.git
+```
+
+Go to the project directory
+
+```bash
+cd the-wild-oasis
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file and add your Supabase credentials.
+
+```env
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_KEY=your_key
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📈 What I Learned
+
+Building this project helped me gain practical experience with:
+
+- Authentication using Supabase
+- CRUD operations
+- Server state management with React Query
+- Protected routes
+- Reusable React components
+- Form validation
+- Dashboard UI design
+- Data visualization with Recharts
+- Writing clean and maintainable code
+
+---
+
+## 🤝 Feedback
+
+If you have any suggestions or feedback, feel free to open an issue or contact me.
+
+---
+
+## 👨‍💻 Author
+
+**Taha Ahmadi**
+
+GitHub: https://github.com/TahaSrn
+
+LinkedIn: www.linkedin.com/in/tahaahmadi0403
+
+---
+
+⭐ If you like this project, consider giving it a star!
